@@ -1,0 +1,3 @@
+root_dir/10000x/file_name1 root_dir/25000x/file_name1 root_dir/50000x/file_name1 root_dir/100000x/file_name1 classE
+root_dir/10000x/file_name2 root_dir/25000x/file_name2 root_dir/50000x/file_name2 root_dir/100000x/file_name2 classB
+root_dir/10000x/file_name3 root_dir/25000x/file_name3 root_dir/50000x/file_name3 root_dir/100000x/file_name3 classB

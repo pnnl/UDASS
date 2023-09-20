@@ -1,0 +1,10 @@
+num_epochs: 50
+ep_init: 15                     # the number of epochs for optimizing the classifier of a pretrained model
+bz: 16                          # batch size
+lr: 0.0001
+momentum: 0.9
+resnet: resnet34                # type of backbone model for MISO [resnet18|resnet34|resnet50]
+type_network: vqvae_clf5        # type of classification model [shared|unshared|vqvae_clf#] -> shared|unshared of MISO
+miso_pretrained: False          # indicating if a pretrained model is used
+isNorm: False                   # indicating if input image is normalized
+pretrained_file: $dir_to_pretrained_MISO_model$           # pretrained weights file

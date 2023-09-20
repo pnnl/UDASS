@@ -1,0 +1,19 @@
+# logger options
+tensorboard_itr: 1000           # how often do you want to save output images during training
+save_itr: 5000                  # how often do you want to display output images during training
+
+# optimization options
+num_ep: 30                      # number of epochs
+batch_size: 16                  # batch size
+beta1: 0.9                      # Adam parameter
+beta2: 0.999                    # Adam parameter
+lr: 0.001                       # initial learning rate
+commitment: 1.0                 # weight of commitment loss
+
+# vqvae params
+latent_size: 256                # the codebook's size
+latent_count: 128               # the size of each latent vector
+
+# data options
+input_dim: 1                    # number of input channel
+input_res: 320                  # input's spatial dimension
