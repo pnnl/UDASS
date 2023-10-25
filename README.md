@@ -1,6 +1,7 @@
 # Improving Model Robustness Against Variations in Micrograph Quality with Unsupervised Domain Adaptation
 
 This is an official implementation of the paper ["Improving Model Robustness Against Variations in Micrograph Quality with Unsupervised Domain Adaptation"](https://www.frontiersin.org/articles/10.3389/fnuen.2023.1230052/full?&utm_source=Email_to_authors_&utm_medium=Email&utm_content=T1_11.5e1_author&utm_campaign=Email_publication&field=&journalName=Frontiers_in_Nuclear_Engineering&id=1230052).
+
 <p align="center">
   <img src="./overview.png">
 </p>
@@ -77,11 +78,14 @@ This implementation is benefited greatly from the publicly available codes from 
 
 ## Citation
 If you find this code useful for your research, please cite our paper:
+
+    
     @article{uda-ss,
-    title={Improving robustness for model discerning synthesis process of uranium oxide with unsupervised domain adaptation}, 
-    volume={2}, 
-    DOI={https://doi.org/10.3389/fnuen.2023.1230052}, 
-    journal={Frontiers in Nuclear Engineering}, 
-    author={Ly, Cuong and Nizinski, Cody and Hagen, Alex and McDonald, Luther W and Tasdizen, Tolga}, 
-    year={2023}
+      title={Improving robustness for model discerning synthesis process of uranium oxide with unsupervised domain adaptation}, 
+      volume={2}, 
+      DOI={https://doi.org/10.3389/fnuen.2023.1230052}, 
+      journal={Frontiers in Nuclear Engineering}, 
+      author={Ly, Cuong and Nizinski, Cody and Hagen, Alex and McDonald, Luther W and Tasdizen, Tolga}, 
+      year={2023}
     }
+    
